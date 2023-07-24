@@ -11,7 +11,9 @@
 - `git commit -m 'message'`
     - staging area에 올라간 파일들의 스냅샷을 찍어 `.git directory`에 저장
     - 일반적으로 `-m` 옵션을 넣어서 커밋메시지를 추가하여 등록
-
+- `git push origin master`
+    - `master`브런치를 원격저장소 `origin`으로 업로드하는 명렁어
+    
 ## 설정
 
 - `git status`
@@ -25,3 +27,4 @@
         - `git config --global user.name`을 통해 값 확인
 - `git remote`
     - `git remote add origin <remote url>`
+    - 원격 저장소로 등록시키는 
