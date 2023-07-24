@@ -11,9 +11,17 @@
 - `git commit -m 'message'`
     - staging area에 올라간 파일들의 스냅샷을 찍어 `.git directory`에 저장
     - 일반적으로 `-m` 옵션을 넣어서 커밋메시지를 추가하여 등록
-    
+
 ## 설정
 
 - `git status`
     - 현재 상태를 체크하는 명령어
 - `git config`
+    - git 설정을 하는 명령어
+    - 일반적으로 `--global` 옵션으로 최초 한 번만 실행
+    - `git config --global user.email 'your@email.com'`
+        - `git config --global user.email`를 통해 값 확인
+    - `git config --global user.name 'name'`
+        - `git config --global user.name`을 통해 값 확인
+- `git remote`
+    - `git remote add origin <remote url>`
