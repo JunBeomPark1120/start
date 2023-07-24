@@ -27,4 +27,4 @@
         - `git config --global user.name`을 통해 값 확인
 - `git remote`
     - `git remote add origin <remote url>`
-    - 원격 저장소로 등록시키는 
+    - 원격 저장소로 등록시키는 명령어
